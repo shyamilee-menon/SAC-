@@ -1,0 +1,273 @@
+* {box-sizing:border-box;}
+html {scroll-behavior:smooth;}
+body {font-family:'Open Sans',sans-serif; position:relative; overflow-x:hidden;}
+/* header */
+.bg-light {background:none!important;}
+.btn:not(:disabled):not(.disabled) {padding:0 50px; background-color:#fff; border-color:#fff; color:#ee1c25; font-family:'Open Sans',sans-serif; font-weight:700;}
+.dropdown,.dropleft,.dropright,.dropup {border-radius:0; border:1px solid #fff; border-radius:5px; margin-right:10px; padding-left:15px;}
+header {width:100%; position:absolute; z-index:999;}
+.banner {background-image:url(images/banner.jpg); width:100%; height:335px; background-size:cover; position:relative; top:0;}
+/* navbar */
+.navbar-brand {font-size:23px; font-weight:700;}
+.navbar-light .navbar-brand {color:#fff;}
+.navbar-light .navbar-nav .nav-link {color:#fff; padding-right:25px;}
+.ml-auto,.mx-auto {margin-right:50px;}
+.kitchen {margin-top:90px; margin-left:120px;}
+.kitchen h5 {color:#fff; font-size:30px; font-weight:300;}
+.kitchen h6 {color:#fff; font-size:30px; font-weight:300;}
+.kitchen h3 {color:#fff; font-size:30px; font-weight:700;}
+/* hot-food */
+.hot-food h5 {color:#181839; font-size:30px; font-weight:500; margin-top:150px;}
+.hot-food p {color:#1a1a3c; font-size:14px; font-weight:400;}
+.iic {padding-bottom:100px;}
+.iic img {width:350px; margin-top:30px;}
+.iic h6 {color:#1a1a3c; font-size:24px; font-weight:700; padding-top:40px;}
+.iic h4 {color:#1a1a3c; font-size:20px; font-weight:500;}
+.iic h3 {color:#777695; font-size:15px; font-weight:500;}
+.iic h2 {color:#1a1a3c; font-size:20px; font-weight:800; margin-top:-90px; margin-left:240px;}
+.iic p {color:#d63031; font-size:12px; font-weight:800; margin-left:240px;}
+/* meals */
+.meals {background-color:#f7f7f7; padding-bottom:120px;}
+.sac-meals {padding-top:70px;}
+.sac-meals h5 {color:#181839; font-size:30px; font-weight:500;}
+.sac-meals p {color:#1a1a3c; font-size:14px; font-weight:400; padding-bottom:30px;}
+.meals-box-1 {border-radius:10px; background-color:#01747b;}
+.meals-box-1 img {margin-left:20px; font-weight:800;}
+.meals-1 h1,.meals-1 h1 {font-size:25px; padding-top:30px; text-align:center;}
+.meals-box-2 {border-radius:10px; background-color:#7b0501;}
+.meals-box-2 img {margin-left:20px;}
+.meals-box-3 {border-radius:10px; height:350px; background-color:#e8e8e8;}
+.meals-box-3 h2 {color:#181839; font-weight:800; font-size:40px; padding-top:60px; padding-left:35px;}
+.meals-box-3 h3 {color:#181839; font-weight:400; font-size:20px; padding-left:35px;}
+.meals-box-3 h1 {font-weight:600; font-size:13px; color:#fff; border-radius:20px; background-color:#181839; padding-left:30px; padding-top:9px; padding-bottom:12px; margin-right:160px; margin-left:30px; margin-top:35px; margin-bottom:-25px;}
+.popular h5 {font-size:30px; color:#272656; font-weight:400; padding-top:65px; padding-bottom:45px;}
+.served {border-radius:10px; border:1px solid #ece8ef; height:215px; background-color:#f8f6f6;}
+.served-text {padding-top:15px; padding-right:15px; padding-left:10px;}
+.star {text-align:right; left:80px;}
+.served-text h1 {color:#272656; font-size:17px; font-weight:800; padding-bottom:0; padding-top:0;}
+.served-text p {color:#444445; font-size:10px;}
+.sweet img {margin-top:-245px; margin-left:195px; height:185px;}
+.checked {color:#ee721f;}
+.star {color:#ee721f;}
+.restaurant {border-radius:10px; border:1px solid #d7d6d7; background-color:#d7d6d7; padding:15px 0 5px 10px; margin-top:30px;}
+.restaurant h6 {font-size:15px; color:#2b2a55;}
+.restaurant h4 {font-size:20px; color:#2b2a55;}
+.sac-served hr {margin-top:100px;}
+/* history */
+.history h6 {font-size:26px; color:#272656; padding:50px 0;}
+.pizza-status {border-radius:10px; border:1px solid transparent; height:80px; background-color:#ee1c25; margin-right:15px;}
+.pizza-status-1 {border-radius:10px; border:1px solid transparent; height:80px; background-color:#f4f2f2; margin-right:15px;}
+.status {display:flex;}
+.pizza-status h5 {font-size:15px; color:#fff; padding-top:17px; font-weight:800;}
+.pizza-status p {font-size:13px; color:#fff; font-weight:400;}
+.pizza-status-1 h5 {font-size:14px; color:#404066; padding-top:17px; font-weight:800;}
+.pizza-status-1 p {font-size:12px; color:#757575; font-weight:400;}
+.cancelled p span {color:#ee1c25; font-weight:800;}
+.ongoing p span {font-weight:800;}
+.delivered p span {color:#00ad4c; font-weight:800;}
+.history hr {margin-top:70px;}
+.deliver h6 {color:#272656; font-size:30px; font-weight:300; padding:50px 0;}
+.rate {left:170px; top:-60px; font-size:10px; font-weight:800; color:#662d91;}
+.location {font-size:22px; font-weight:800; color:#272656;}
+/* kitchen */
+.fresh {background-color:#eff0f0; margin:70px 0 0 0; padding-bottom:100px;}
+.fresh-1 h6 {color:#272656; font-size:30px; font-weight:400; padding:50px 0;}
+.business h2 {color:#272656; font-size:30px; font-weight:400; padding-left:25px; padding-top:40px; padding-bottom:15px;}
+.business p {color:#444445; font-size:20px; font-weight:300; padding-right:195px; padding-left:25px; padding-bottom:15px;}
+.app a,.business a {color:#fff; background-color:#ee1c25; border-radius:4px; padding:10px 35px; text-decoration:none; margin:0 0 0 25px;}
+.app a:hover,.business a:hover {color:#ee1c25; background-color:#fff;}
+.business img {width:550px;}
+.app h2 {color:#272656; font-size:30px; font-weight:400; padding-left:25px; padding-top:40px; padding-bottom:15px;}
+.app p {color:#444445; font-size:20px; font-weight:300; padding-left:25px; padding-bottom:45px;}
+.app img {width:550px;}
+/* works */
+.works-1 {background-color:#fff; padding-bottom:120px;}
+.works-2 {padding-top:70px; padding-bottom:90px;}
+.works-2 h5 {color:#181839; font-size:30px; font-weight:400; padding:0 0 10px 0;}
+.works-2 p {color:#1a1a3c; font-size:14px; font-weight:400; padding-bottom:30px;}
+.work h2 {font-size:25px; font-weight:600; text-align:center;}
+.works-2 hr {margin-top:50px; margin-bottom:-120px;}
+.partners-1 img {margin:25px -30px;}
+.partners-2  h3 {color:#fff; font-size:30px; font-weight:800; padding:30px 0 10px 40px;}
+.partners-2 {background-color:#00ad4c; margin:25px 45px 25px -45px;}
+.partners-2 p {color:#fff; font-size:17px; font-weight:400; padding:0 90px 15px 40px;}
+.partners-2 a {color:#fff; background-color:#00ad4c; border-radius:4px; padding:10px 35px; text-decoration:none; border:1px solid #fff; margin:0 0 0 40px;}
+.partners-2 a:hover {color:#00ad4c; background-color:#fff;}
+.partner {margin:0 -30px 0 0;}
+.careers-1 img {margin:25px -30px;}
+.careers-2  h3 {color:#000; font-size:30px; font-weight:800; padding:30px 0 10px 40px;}
+.careers-2 {background-color:#ffe100; margin:-5px -10px 2px 5px;}
+.careers-2 p {color:#000; font-size:17px; font-weight:400; padding:0 90px 15px 40px;}
+.careers-2 a {color:#000; background-color:#ffe100; border-radius:4px; padding:10px 35px; text-decoration:none; border:1px solid #000; margin:0 0 0 40px;}
+.careers-2 a:hover {color:#ffe100; background-color:#000;}
+.careers {margin:-5px -30px 2px -20px;}
+/* loved */
+.loved {background-color:#000; padding-bottom:80px; position:relative;}
+.loved-1 {display:flex; margin:0 0 0 -20px;}
+.lb h5 {color:#fff; font-size:35px; font-weight:300; padding:40px 0 40px 0;}
+.lb-logo {border-radius:4px; background-color:#1e1e1e; padding-left:50px;margin-left: 20px;}
+/* footer */
+.footer-logo-1 {background-color:#242424; margin-left:-15px; padding:60px 0 80px 40px;}
+.footer-logo {font-size:23px; font-weight:700; text-decoration:none; color:#fff; padding:0 0 0 20px;}
+.footer-logo:hover {color:#000; text-decoration:none;}
+.footer-logo-2 {padding-top:35px;}
+.about {background-color:#f5f5f5; padding-top:65px;}
+.about li {font-size:17px; color:#181839; font-weight:400; list-style:none; padding-bottom:0; padding-left:10px; padding-top:15px;}
+.about-1 {font-size:18px; color:#181839; font-weight:700; padding:0 0 0 50px;}
+.about-1:hover {text-decoration:none; color:#000;}
+.store {background-color:#f5f5f5; margin-left:-98px;}
+.store img {width:353px; margin-left:-15px; padding:10px 0 0 0; margin-top:30px;}
+footer {background-color:#ee1c25; padding-top:20px; padding-bottom:10px; text-align:center; position:relative; margin-top:0;}
+footer p {color:#fff; font-size:13px; font-weight:normal; letter-spacing:2px; font-weight:700;}
+footer p a {color:#fff;}
+footer p a:hover {color:#181839; text-decoration:none;}
+/* ------------ Responcive ----------- */
+@media (max-width:299px) {
+* {display:none;}
+}
+@media ( min-width:300px) and ( max-width: 767px ) {
+/* header */
+.kitchen {margin-left:0;}
+/* hot-food */
+.hot-food h5 {font-size:24px; margin-top:40px;}
+.iic img {width:235px; margin-top:20px;}
+.iic h6 {font-size:20px;}
+.iic p {margin-left:175px;}
+.iic h2 {font-size:15px; margin-top:-80px; margin-left:190px;}
+.iic h3 {font-size:12px;}
+.iic {padding-bottom:70px;}
+/* meals */
+.sac-meals h5 {font-size:24px;}
+.mb {margin-left:20px;}
+.meals-box-1 img {margin-left:10px; width:175px;}
+.meals-box-2 img {margin-left:10px; width:175px;}
+.meals-1 h1,.meals-1 h1 {padding-top:25px; padding-bottom:15px;}
+.meals-box-3 h2 {font-size:23px; padding-top:20px; padding-left:18px;}
+.meals-box-3 h3 {font-size:17px; padding-left:18px;}
+.meals-box-3 h1 {padding-left:30px; padding-top:10px; padding-bottom:10px; margin-right:20px; margin-left:20px; margin-top:35px; margin-bottom:-25px;}
+.meals-box-3 {height:285px;}
+.popular h5 {font-size:24px; padding-top:35px; padding-bottom:25px;}
+.sweet img {display:none;}
+.star {left:-155px;}
+.restaurant {margin-top:36px;}
+.food {margin-bottom:25px;}
+/* history */
+.history {padding-right:0; padding-left:0; margin-right:-5px; margin-left:7px;}
+.history h6 {font-size:24px; padding:35px 0;}
+.rate {display:none;}
+.pizza-status {margin-bottom:30px;}
+.pizza-status h5 {font-size:12px; padding-top:10px;}
+.pizza-status p {font-size:10px;}
+.pizza-status-1 h5 {font-size:12px; padding-top:10px;}
+.pizza-status-1 p {font-size:9px;}
+/* history */
+.deliver h6 {font-size:23px; padding:25px 0;}
+.deliver {margin-bottom:-40px;}
+/* fresh */
+.fresh {padding-bottom:50px;}
+.fresh-1 h6 {font-size:24px; padding:35px 0;}
+.business img {width:240px;}
+.app img {width:240px; padding-top:40px;}
+.app h2 {font-size:24px; padding-left:15px;}
+.app p {font-size:16px; padding-right:0; padding-bottom:15px; padding-left:15px;}
+.business h2 {font-size:24px; padding-left:15px;}
+.business p {font-size:16px; padding-right:0; padding-left:15px;}
+/* work */
+.work {margin-left:-30px;}
+.work h2 {font-size:20px; padding-left:60px;}
+.works-2 h5 {font-size:23px; padding-left:15px; padding-bottom:0;}
+.works-2 {padding-top:40px; padding-bottom:70px;}
+.works-2 p {font-size:13px; padding:0 20px 30px 20px;}
+.partners-2 h3 {padding:30px 0 10px 20px;}
+.partner {height:530px;}
+.works-1 {padding-bottom:30px;}
+.partners-1 img {margin:20px -15px;}
+.partners-2 {margin:25px 30px 65px 0;}
+.partners-2 a {margin:0 0 0 20px;}
+.careers img {margin:10px 25px; width:340px;}
+.careers-2 {margin:25px 30px 25px 20px; height:300px;}
+.careers-2 a {margin:0 0 0 20px;}
+.careers-2 h3 {padding:30px 0 10px 20px;}
+.partners-1 {margin-bottom:-110px;}
+.careers {margin:-35px -30px 0 -20px;}
+/* loved */
+.lb-logo {margin-bottom:20px;}
+.lb h5 {font-size:25px; padding:35px 0 20px 0;}
+.loved-1 {margin:0 0 -50px -20px;}
+.store {margin-left:0;}
+/* footer */
+.footer-logo-1 {margin-left:0;}
+.footer-logo {font-size:18px;}
+.footer-logo-2 {padding-top:15px; margin-bottom:-30px;}
+}
+@media ( min-width:600px) and ( max-width: 767px ) {
+.partners-1 img {width:480px;}
+.careers img {width:480px;}
+}
+@media ( min-width:700px) and ( max-width: 767px ) {
+.history {margin-left:100px;}
+}
+@media ( min-width: 768px) and ( max-width: 991px ) {
+.work img {width:280px; margin-left:-30px;}
+.business p {padding-right: 0px;}
+.business img {width: 320px; }
+.app img {width: 320px;}
+.iic p {
+    font-size: 10px;
+    margin-left: 154px;
+  }
+  .iic h2 {
+    font-size: 20px;
+    margin-left: 160px;
+  }
+  .iic img {
+    width: 220px;
+    margin-top: 30px;
+  }
+  .meals-box-3 h1 {
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #181839;
+    padding-left: 30px;
+    padding-top: 9px;
+    padding-bottom: 12px;
+    margin-right: 35px;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  .meals-box-3 h2 {
+    font-weight: 800;
+    font-size: 23px;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  .meals-box-3 h3 {
+    color: #181839;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .meals-box-3 {
+    height: 240px;
+  }
+  .star {
+    left: -20px;
+  }
+  .sweet img { display: none;}
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+.sweet img {margin-top:-260px; margin-left:195px; height:185px;}
+.restaurant {margin-top:35px;}
+.store {margin-left:-119px;}
+.lb-logo {margin:0 0 0 15px; padding:5px 0 5px 40px;}
+.loved-1 {margin:0 0 0 -30px;}
+}
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+.store {margin-left:-194px;}
+.lb-logo {margin:0 2px 0 15px; padding:5px 0 0 35px;}
+}
